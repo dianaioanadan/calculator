@@ -10,20 +10,16 @@ public class App
     {
         System.out.println( "Hello World!" );
 
-        Sum c;
-        c = new Sum();
+        Sum c=new Sum();
         System.out.println("Rezultatul este: " + c.add(3,5));
 
-        Sub d;
-        d = new Sub();
+        Sub d=new Sub();
         System.out.println("Rezultatul este: " + d.dif(3,5));
 
-        Multiplication e;
-        e = new Multiplication();
+        Multiplication e=new Multiplication();
         System.out.println("Rezultatul este: " + e.mult(3,5));
 
-        Division f;
-        f = new Division();
+        Division f=new Division();
         System.out.println("Rezultatul este: " + f.div(7,3));
 
     }
